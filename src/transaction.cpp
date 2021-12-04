@@ -1,11 +1,9 @@
-#include "transaction.hpp"  
+#include "transaction.hpp" 
 	
-transaction::transaction()
+Transaction::Transaction(string sender , string reciever , long int amount)
 {
-	
-}
-	
-transaction::~transaction()
-{
-	
+    this->Sender = sender;
+    this->Reciever = reciever;
+    this->Amount = amount;
+
 }

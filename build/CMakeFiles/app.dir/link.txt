@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/account.cpp.o CMakeFiles/app.dir/transaction.cpp.o  -o app 

@@ -1,15 +1,17 @@
 #ifndef TRANSACTION_H
 #define TRANSACTION_H
-#pragma once
-	
-class transaction  
+
+#include <iostream>
+using namespace std;
+
+class Transaction  
 {
 	private:
-
+		string Sender;
+		string Reciever;
+		long int Amount;
 	public:
 
-		transaction();
-		~transaction();
-
+		Transaction(string,string,long int);
 };
 #endif

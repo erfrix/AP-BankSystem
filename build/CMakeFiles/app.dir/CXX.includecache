@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/Coding/VS Code/Advanced Programming/AD/Tamrin 2-AP-BankSystem/include/account.hpp
+transaction.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/AD/Tamrin 2-AP-BankSystem/include/transaction.hpp
+iostream
+-
+vector
+-
+string
+-
+ctime
+-
+
+/mnt/e/Coding/VS Code/Advanced Programming/AD/Tamrin 2-AP-BankSystem/include/transaction.hpp
+iostream
+-
+
+/mnt/e/Coding/VS Code/Advanced Programming/AD/Tamrin 2-AP-BankSystem/src/account.cpp
+account.hpp
+/mnt/e/Coding/VS Code/Advanced Programming/AD/Tamrin 2-AP-BankSystem/src/account.hpp
+

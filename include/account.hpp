@@ -9,7 +9,7 @@
 
 using namespace std;
 
-class account  
+class Account  
 {
 	private:
 		string Username;
@@ -17,13 +17,31 @@ class account
 		time_t CreationDate;
 		time_t ExpirationDate;
 		long int Balance;
-		vector<transaction> User_transactions;
+		long int Loan;
+		vector<Transaction> User_transactions;
 		vector<string> IPs_Allowed;
 
 	public:
 
-		account(string , string);
-		virtual ~account();
+		Account(string , string , string);
+		void renewal();
+		void add_ip(string);
+		void deposit(long int);
+		bool transfer(vector<Account>&, string, long int);
+		bool withdraw(long int);
+		void add_profits();
+		bool get_loan(vector<Account>&, long int);
+		void pay_loan(long int);
+
+		//getters setters
+		long int getBalance();
+		string getCardNumber();
+		string getUsername();
+		long int getLoanVal();
+		time_t getExpireDate();
+		time_t getCreationDate();
+		vector<string> getAllowedIPs();
+		void print_info();
 
 };
 #endif //ACCOUNT_H

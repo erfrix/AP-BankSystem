@@ -1,0 +1,3 @@
+/mnt/e/Coding/VS Code/Advanced Programming/AD/Tamrin 2-AP-BankSystem/build4/CMakeFiles/rebuild_cache.dir
+/mnt/e/Coding/VS Code/Advanced Programming/AD/Tamrin 2-AP-BankSystem/build4/CMakeFiles/edit_cache.dir
+/mnt/e/Coding/VS Code/Advanced Programming/AD/Tamrin 2-AP-BankSystem/build4/CMakeFiles/app.dir
